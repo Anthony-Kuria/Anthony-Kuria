@@ -91,7 +91,7 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-color: hsl(306, 81%, 90%);
+		background-color: #fff;
 		background-position: top left, top left;
 		background-repeat: repeat-x, repeat;
 		background-size: 100% 30em, auto;
@@ -1779,7 +1779,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #f8e9f4;
+		background: #ffffff;
 		border-radius: 6px;
 		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
 		padding: 2em;
@@ -1892,7 +1892,7 @@ input, select, textarea {
 			}
 
 				.widget.contact ul li a:before {
-					color: #f3f3f3;
+					color: #ffffff;
 					font-size: 1.5em;
 					line-height: inherit;
 				}
@@ -1916,7 +1916,7 @@ input, select, textarea {
 	}
 
 	#main-wrapper {
-		background: #f8e9f4;
+		background: #ffffff;
 		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
 		padding: 5em 0 5em 0;
 	}
@@ -1936,10 +1936,14 @@ input, select, textarea {
 	#logo {
 		display: inline-block;
 	}
+	.Bicatel {
+     width: 450px;
+	}
+
 
 		#logo h1 {
-			background: rgb(112, 33, 99);
-			color: #fff;
+			background: rgb(78, 10, 75);
+			color: #ffffff;
 			border-radius: 6px;
 			font-family: 'Oleo Script', serif;
 			font-weight: 400;
@@ -1986,7 +1990,7 @@ input, select, textarea {
 					transition: background-color .25s ease-in-out;
 					font-weight: 800;
 					letter-spacing: 0.025em;
-					color: #696969;
+					color: #292727;
 					text-decoration: none;
 					border-radius: 6px;
 					padding: 0.5em 1em 0.5em 1em;
@@ -1997,16 +2001,19 @@ input, select, textarea {
 				}
 
 				#nav ul li:hover a, #nav ul li:hover span {
-					background: rgb(172, 111, 147);
+					background: rgb(53, 5, 56);
+					text-transform: uppercase;
+					color: #ffffff;
 				}
 
 				#nav ul li.active a, #nav ul li.active span {
-					background: rgb(172, 111, 147);
+					background: rgb(53, 5, 56);
+					text-transform: uppercase;
 				}
 
-				#nav ul li.current a {
-					background: #444;
-					color: #fff;
+				#nav ul li.current a, #nav ul li.current span {
+					background: rgb(26, 2, 16);
+					color: #ffffff;
 				}
 
 	.dropotron {
@@ -2125,7 +2132,7 @@ input, select, textarea {
 		}
 
 	#copyright {
-		color: #aaa;
+		color: #fff;
 		padding: 4em 0 0 0;
 		text-align: center;
 	}
