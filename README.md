@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Anthony-Kuria
-- 👀 I’m interested in Coding (HTML, CSS, SASS, Phython, SQL, and Java)
+- 👀 I’m interested in Coding (HTML, CSS, SASS, Phython, SQL, JavaScript and Java)
 - 🌱 I’m currently learning (Phython)
-- 💞️ I’m looking to collaborate on (HTML, CSS, SASS, Phython, SQL, and Java)
+- 💞️ I’m looking to collaborate on (HTML, CSS, SASS, Phython, SQL, JavaScript and Java)
 - 📫 How to reach me couria@gmail.com +254722693985
 
 <!---
