@@ -91,13 +91,13 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-color: #fff;
+		background-color: rgb(255, 255, 255);
 		background-position: top left, top left;
 		background-repeat: repeat-x, repeat;
 		background-size: 100% 30em, auto;
 		font-family: 'Open Sans', sans-serif;
-		font-size: 13pt;
-		color: #696969;
+		font-size: 14pt;
+		color: #302e2e;
 		font-weight: 300;
 		line-height: 2.25em;
 	}
@@ -116,7 +116,7 @@ input, select, textarea {
 	input, select, textarea {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 13pt;
-		color: #696969;
+		color: #4b4a4a;
 		font-weight: 300;
 		line-height: 2.25em;
 	}
@@ -131,7 +131,7 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: rgb(53, 5, 56);
+		color: rgb(10, 6, 66);
 		font-weight: 800;
 	}
 
@@ -154,7 +154,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #444;
+		color: #4b4a4a;
 	}
 
 	i, em {
@@ -1634,7 +1634,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: rgb(53, 5, 56);
+		background: rgb(30, 125, 233);
 		color: #fff;
 		text-decoration: none;
 		border-radius: 6px;
@@ -1661,7 +1661,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #10a0d5;
+			background: rgb(172, 220, 243);
 		}
 
 		input[type="button"]:active,
@@ -1679,7 +1679,7 @@ input, select, textarea {
 		.button.alt {
 			background: #f1f1f1;
 			background: rgba(0, 0, 0, 0.05);
-			color: #444;
+			color: rgb(22, 101, 175);
 		}
 
 			input[type="button"].alt:hover,
@@ -1696,7 +1696,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background: #e4e4e4;
+				background: #e4e2e2;
 				background: rgba(0, 0, 0, 0.15);
 			}
 
@@ -1764,7 +1764,7 @@ input, select, textarea {
 	}
 
 		ul.menu li {
-			border-left: solid 1px #e0e0e0;
+			border-left: solid 1px #646060;
 			display: inline-block;
 			padding: 0 0 0 0.75em;
 			margin: 0 0 0 0.75em;
@@ -1909,6 +1909,7 @@ input, select, textarea {
 
 	#header-wrapper {
 		padding: 4.5em 0 3em 0;
+		background-color: #ffffff;
 	}
 
 	#features-wrapper {
@@ -1936,7 +1937,7 @@ input, select, textarea {
 	#logo {
 		display: inline-block;
 	}
-	.Bicatel {
+	.Motech {
      width: 450px;
 	}
 
@@ -2001,25 +2002,25 @@ input, select, textarea {
 				}
 
 				#nav ul li:hover a, #nav ul li:hover span {
-					background: rgb(53, 5, 56);
+					background: rgb(172, 220, 243);
 					text-transform: uppercase;
 					color: #ffffff;
 				}
 
 				#nav ul li.active a, #nav ul li.active span {
-					background: rgb(53, 5, 56);
+					background: rgb(172, 220, 243);
 					text-transform: uppercase;
 				}
 
 				#nav ul li.current a, #nav ul li.current span {
-					background: rgb(26, 2, 16);
-					color: #ffffff;
+					background: rgb(255, 255, 255);
+					color: #1f1c1c;
 				}
 
 	.dropotron {
-		background: #fff;
+		background: rgb(228, 246, 255);
 		letter-spacing: 0.025em;
-		color: #696969;
+		color: #140330;
 		text-decoration: none;
 		border-radius: 6px;
 		padding: 0.75em 0;
@@ -2053,11 +2054,11 @@ input, select, textarea {
 			}
 
 				.dropotron li > a:hover, .dropotron li > span:hover {
-					background: #eee;
+					background: rgb(172, 220, 243);
 				}
 
 			.dropotron li.active > a, .dropotron li.active > span {
-				background: #eee;
+				background: rgb(172, 220, 243);
 			}
 
 		.dropotron.level-0 {
